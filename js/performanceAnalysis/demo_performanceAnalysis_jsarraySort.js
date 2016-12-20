@@ -138,7 +138,7 @@
 		 * @description 得到一个很长数组的省略显示
 		 * @param {Array} arr
 		 */
-		getArrayShow: function(arr, isStr) {
+		getArrayShow: function(arr) {
 			var self = this;
 			var html = '[随机数组]';
 			var count = 9;
