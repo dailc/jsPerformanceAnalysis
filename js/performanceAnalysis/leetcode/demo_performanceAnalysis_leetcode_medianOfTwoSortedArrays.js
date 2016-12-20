@@ -142,7 +142,9 @@
 			html += '<span class="block">';
 			html += '执行平均差:' + meanDeviationsPercent.toFixed(2) + '%';
 			html += '</span>';
-
+			html += '<span class="block">';
+			html += '结果:' + arr;
+			html += '</span>';
 			return html;
 
 		},
@@ -185,6 +187,7 @@
 							end: end,
 							a: originArray1,
 							b: originArray2,
+							arr:result
 						};
 					},
 				},
@@ -256,6 +259,7 @@
 							end: end,
 							a: originArray1,
 							b: originArray2,
+							arr:result
 						};
 					},
 				},
